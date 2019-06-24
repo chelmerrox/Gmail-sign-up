@@ -6,7 +6,7 @@ This is my own project in replicating the Gmail sign up homepage as seen in this
 
 The purpose of this is to sharpen my current knowledge and skills on HTML5 and CSS3. No JavaScript code was used for this project. 
 
-## Preview of web page
+## Preview of my web page
 
 ![Gmail-sign-up-homepage](images/gmailsignup.png)
 
@@ -16,4 +16,6 @@ The purpose of this is to sharpen my current knowledge and skills on HTML5 and C
 Losalini Rokocakau. **GitHub username:** *chelmerrox*
 
 ## View my web page
+
+https://chelmerrox.github.io/Gmail-sign-up/
 
