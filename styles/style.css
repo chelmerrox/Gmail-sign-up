@@ -1,0 +1,330 @@
+/*Styles and position for the whole body*/
+body {
+    margin: 0;
+    display: block;
+    background-color: white;
+    font-family: sans-serif, arial;
+    position: static;
+}
+
+/*Styles and position of the top navigation bar*/
+.topnavbar {
+    margin: 25px;
+    font-family: sans-serif, arial;
+    position: fixed; /*Makes the top navigation bar to stay in the same position even when we scroll down the page*/
+    padding: 0;
+    border-bottom: 1px solid rgb(219, 217, 217);
+    box-shadow: 1px rgb(160, 158, 158);
+}
+
+/*Moving the gmail image and text to the left*/
+.gmail-icon-text {
+    float: left;
+}
+
+/*Styles for gmail image*/
+#gmail-icon {
+    margin: 0;
+    padding: 1px 19px;
+}
+
+/*Styles and positioning of Gmail text*/
+#gmail-text {
+    margin: 0;
+    padding: 1px;
+    color: grey;
+    font: 25px sans-serif, arial;
+    position: relative;
+    top: -35px;
+    left: 70px;
+}
+
+/*Moving the For work, Sign in & Create an account button to the right of web page*/
+.toprightnavbar {
+    float: right;
+    position: relative;
+    left: 600px;
+}
+
+/*Styles for For work and Sign in*/
+.forwork-signin {
+    color: grey;
+    font: 15px sans-serif, arial;
+    margin: 5px;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+/*Styles for create an account button*/
+#createanaccount {
+    color: white;
+    font: 18px sans-serif, arial;
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 13px 30px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 20px 10px;
+}
+
+/*Making For work, Sign in and links at the bottom of web page turn black when cursor hovers over each one*/
+.forwork-signin:hover, #link1:hover, #link2:hover, #link3:hover, #link4:hover, #link5:hover, #link6:hover, #link7:hover {
+    color: black;
+}
+
+/*Making Create an account button turn dark blue when cursor hovers over it*/
+#createanaccount:hover, #createanaccount1:hover, #createanaccount2:hover {
+    background-color: rgb(7, 7, 170);
+}
+
+/*Position of the contents in the second container*/
+#second-container {
+    display: block;
+    position: relative;
+    top: 93px;
+    background-color: rgb(236, 233, 233);
+    border: 1px solid rgb(236, 233, 233);
+    padding: 24px 30px 1px 30px;
+    margin: 0;
+    
+}
+
+/*Position of titles and paragraphs underneath them*/
+#first-title, .paragraphs {
+    position: relative;
+    left: 100px;
+    font-family: sans-serif, arial;
+}
+
+/*Styles for the first title*/
+#first-title {
+    color: black;
+    font-size: 55px;
+}
+
+/*Styles for the paragraphs under each title*/
+.paragraphs {
+    font-size: 17px;
+    color: rgb(31, 30, 30);
+}
+
+/*Position of the first image*/
+#first-image {
+    position: relative;
+    top: -300px;
+    left: 610px;
+}
+
+/*Position of the right arrow*/
+#right-arrow {
+    position: relative;
+    top: -499px;
+    left: 620px;
+}
+
+/*Grey color for the left and right arrows in second container*/
+#left-arrow, #right-arrow {
+    color: grey;
+}
+
+/*Styles for create an account button*/
+#createanaccount1 {
+   position: relative;
+   top: -300px;
+   left: 200px;
+   text-decoration: none;
+   font: 15px sans-serif, arial;
+   color: white;
+   background-color: blue;
+   border: 1px solid blue;
+   padding: 13px 30px;
+   border-radius: 3px;
+    
+}
+
+/*Position of the three circles image/link*/
+#three-circles {
+    position: relative;
+    top: -200px;
+    left: 340px;
+}
+
+/*Position of contents in third container*/
+#third-container {
+    align: center;
+    position: relative;
+    top: 100px;
+    left: 350px;
+    background-color: white;
+    margin: 0;
+    padding: 12px;
+}
+
+/*Styles and position of headings*/
+h2 {
+    font: 40px sans-serif, arial;
+    text-align: justify;
+}
+
+
+/*Position of Google Play App and iTunes App buttons*/
+.app-buttons {
+    margin: 0;
+    padding: 12px;
+}
+
+/*Styles and position of the Google PLay App and iTunes App buttons*/
+#google-play-app, #itunes-app {
+    color: white;
+    font: 15px sans-serif, arial;
+    text-decoration: none;
+    background-color: black;
+    padding: 23px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+/*Position of the Google Play store logo in black button*/
+#google-play-store-logo {
+    position: relative;
+    top: 12px;
+}
+
+/*Position of the Apple app store logo in black button*/
+#apple-logo {
+    position: relative;
+    top: 22px;
+}
+
+/*Position of the the texts in the App buttons*/
+.app-name {
+    position: relative;
+    top: 14px;
+    right: 75px;
+}
+
+
+/*Position of the image (Gmail on a laptop)*/
+#gmail-on-laptop {
+    position: relative;
+    right: 410px;
+    margin:0;
+    padding: 0;
+}
+
+/*Position of the fourth conatiner*/
+#fourth-container {
+    margin: 0;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/*Position and styles of the two subcontainers*/
+.subcontainers-of-container4 {
+    margin: 11px;
+    padding: 15px;
+    background-color: rgb(236, 233, 233);
+    border:rgb(236, 233, 233);
+    display: inline-block; /*makes the two blocks displayed in a line yet in different blocks*/
+}
+
+/*The position of the headings for the subcontainers in the fourth container*/
+.two-headings {
+    text-align: center;
+}
+
+/*The paragraphs under each headings of the subcontainers in the fourth container*/
+#firstline, #secondline, #thirdline, #fourthline {
+    position: relative;
+    left: -7px;
+}
+
+/*Position of the fifth and sixth containers*/
+#fifth-container {
+    margin: 40px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/*Background color of the sixth container*/
+#sixth-container {
+    background-color:rgb(236, 233, 233);
+    margin: 0;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+/*The positions of the two subcontainers in the fifth and sixth containers*/
+.texts-and-image, .image-and-texts {
+    display: inline-block;
+    margin: 20px;
+}
+
+/*Position of the seventh container*/
+#seventh-container {
+    position: relative;
+    top: 300px;
+    left: 300px;
+}
+
+/*Position of the gmail image at the bottom*/
+#gmailimage2 {
+    position: relative;
+    left: 300px;
+}
+
+/*Position of the title under gmail image*/
+#title {
+    position: relative;
+    left: 140px;
+}
+
+/*Styles for the third create an account button*/
+#createanaccount2 {
+    position: relative;
+    top:  10px;
+    left: 250px;
+    text-decoration: none;
+    font: 15px sans-serif, arial;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 13px 30px;
+    border-radius: 3px;
+ }
+
+ /*Position and background color of eighth container*/
+ #eighth-container {
+     background-color: rgb(236, 233, 233);
+     position: relative;
+     top: 900px;
+     margin: 0;
+     
+ }
+
+ /*Styles and position of all links at the bottom of the web page*/
+#link1, #link2, #link3, #link4, #link5, #link6, #link7 {
+    text-decoration: none;
+    font: 16px sans-serif, arial;
+    color: grey;
+    word-spacing: 5px;
+}
+
+/*Position of the first five text-links at the bottom of the web page*/
+#link1, #link2, #link3, #link4, #link5 {
+    position: relative;
+    top: -40px;
+}
+
+ /*Position of the links on the bottom right of the page*/
+ #bottomrightlinks {
+     float: right;
+     text-decoration: none;
+     position: relative;
+     top: -65px;
+     left: -100px;
+ }
+
